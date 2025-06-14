@@ -2,7 +2,7 @@
 #SingleInstance Force
 
 #include %A_LineFile%\..\Gif Animation\ImagePut.ahk
-;another test
+;gona see if you can see
 global g__daGui := (g := Gui('+AlwaysOnTop -Caption', 'Checklist: '), g.SetFont('s12'), g.Show('Hide w1260 h660'), g)
 
 global ini := FileExist(p := A_ScriptDir "\Checklist.ini") ? p : (FileAppend(Chr(0xEF) Chr(0xBB) Chr(0xBF), p), p)
