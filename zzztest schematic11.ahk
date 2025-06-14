@@ -1,8 +1,8 @@
 ﻿#Requires Autohotkey v2.0+
 #SingleInstance Force
-;testing to see if updating
-#include %A_LineFile%\..\Gif Animation\ImagePut.ahk
 
+#include %A_LineFile%\..\Gif Animation\ImagePut.ahk
+;another test
 global g__daGui := (g := Gui('+AlwaysOnTop -Caption', 'Checklist: '), g.SetFont('s12'), g.Show('Hide w1260 h660'), g)
 
 global ini := FileExist(p := A_ScriptDir "\Checklist.ini") ? p : (FileAppend(Chr(0xEF) Chr(0xBB) Chr(0xBF), p), p)
