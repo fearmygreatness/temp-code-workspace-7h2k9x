@@ -1,6 +1,6 @@
 ﻿#Requires Autohotkey v2.0+
 #SingleInstance Force
-
+;testing to see if updating
 #include %A_LineFile%\..\Gif Animation\ImagePut.ahk
 
 global g__daGui := (g := Gui('+AlwaysOnTop -Caption', 'Checklist: '), g.SetFont('s12'), g.Show('Hide w1260 h660'), g)
